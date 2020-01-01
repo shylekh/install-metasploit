@@ -17,7 +17,10 @@ echo "deb https://dl.bintray.com/xeffyr/unstable-packages-21 unstable main" > $P
 
 cd $PREFIX/etc/apt/sources.list.d/
 cat unstable.list
+
 apt upgrade
+apt update
+
 cd $HOME
 
 clear
